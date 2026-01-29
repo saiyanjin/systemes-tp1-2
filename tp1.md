@@ -74,7 +74,7 @@ Périphérique    Début      Fin Secteurs Taille Type
 
 #### `fdisk -x`
 
-Cette commande fournit une vue détaillée du disque, incluant les UUID, noms de partitions et attributs GPT.
+Cette commande renvoie une vue détaillée du disque, incluant les UUID, noms de partitions et attributs GPT.
 
 ```bash
 root@serveur1:~# fdisk -x
@@ -101,10 +101,10 @@ Le *preseed* sert à automatiser l’installation de Debian en fournissant à l�
 
 ### 3.2 Mot de passe root oublié
 
-En cas d’oubli du mot de passe root, il est possible de démarrer en **mode rescue** afin d’accéder à un environnement minimal permettant de modifier le mot de passe root.
+Il est possible de démarrer en **mode rescue** pour accéder à un environnement permettant de modifier le mot de passe root.
 
 ### 3.3 Redimensionnement de la partition racine
 
-Il est possible de redimensionner la partition racine sans réinstaller en utilisant un live CD/USB (ex. GParted) pour démonter la partition et ajuster sa taille.
+Il est possible de redimensionner la partition racine sans réinstaller en utilisant un live CD/USB pour démonter la partition et ajuster sa taille.
 
 ### 3.4
